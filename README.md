@@ -11,23 +11,25 @@ For license please refer to LICENSE file
 python  
   
 ## how to use it  
-``$ cat xml.xml ``  
-``<?xml version="1.0"?>``  
-``<messages>``  
-``  <note ID="501">``  
-``    <to>Tove</to>``  
-``    <from>Jani</from>``  
-``    <heading>Reminder</heading>``  
-``    <body>Don't forget me this weekend!</body>``  
-``  </note>``  
-``  <note ID="502">``  
-``    <to>Jani</to>``  
-``    <from>Tove</from>``  
-``    <heading>Re: Reminder</heading>``  
-``    <body>I will not!</body>``  
-``  </note> ``  
-``</messages>``  
-  
+```xml
+$ cat xml.xml ``  
+<?xml version="1.0"?>``  
+<messages>``  
+  <note ID="501">``  
+    <to>Tove</to>``  
+    <from>Jani</from>``  
+    <heading>Reminder</heading>``  
+    <body>Don't forget me this weekend!</body>``  
+  </note>``  
+  <note ID="502">``  
+    <to>Jani</to>``  
+    <from>Tove</from>``  
+    <heading>Re: Reminder</heading>``  
+    <body>I will not!</body>``  
+  </note> ``  
+</messages>``  
+```
+
 ``$ ./xmlgrep.py xml.xml "messages"``  
 ``name(/messages)``  
   
