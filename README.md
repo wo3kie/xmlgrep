@@ -1,5 +1,5 @@
 # xmlgrep  
-Find a given text return it position in xml as an XPath  
+Find a given text return it position in a xml as an XPath  
   
 ## website  
 https://github.com/wo3kie/xmlgrep  
