@@ -1,16 +1,15 @@
-# xmlgrep  
+## Copyright (C) 2015 Łukasz Czerwiński
+
+## Xmlgrep  
 Find a given text return it position in a xml as an XPath  
   
-## website  
+## Website  
 https://github.com/wo3kie/xmlgrep  
   
-## license  
-For license please refer to LICENSE file  
-  
-## requirements  
+## Requirements  
 python  
   
-## how to use it  
+## How to use it?  
 ```xml
 $ cat xml.xml   
 <?xml version="1.0"?>  
